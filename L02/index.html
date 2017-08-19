@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game 2</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        canvas {
+            border: 1px solid #333;
+        }
+
+        .canvas-father {
+            display: inline-block;
+        }
+
+        .text {
+            margin: 10px 0;
+        }
+
+        .buttons {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        .buttons button {
+            padding: 5px;
+            background-color: #ff3300;
+            border-color: #ff3300;
+            color: #fff;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #ff0000;
+            border-color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canvas-father">
+        <div class="buttons">
+            <button id="reset">重置关卡</button>
+        </div>
+        <div class="text">当前关卡是：第<span id="level">1</span>关</div>
+        <canvas id="id-canvas" width="600" height="300"></canvas>
+        <div class="text">你的分数是：<span id="score">0</span>分</div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="borad.js"></script>
+    <script src="ball.js"></script>
+    <script src="brick.js"></script>
+    <script src="level.js"></script>
+    <script src="game.js"></script>
+    <script src="gameStart.js"></script>
+</body>
+
+</html>
