@@ -1,7 +1,8 @@
 # myGame
 #### 备注
 
-> 这里是从B站的[萧井陌](https://space.bilibili.com/39066904?from=search&seid=4781459952813937550#!/)大大那里学过来的JavaScript游戏。
+> 这里是从B站的[萧井陌](https://space.bilibili.com/39066904?from=search&seid=4781459952813937550#!/)大大那里学过来的JavaScript游戏。    
+A 控制往左；B 控制往右； F 发射
 
 #### 游戏成果
 
